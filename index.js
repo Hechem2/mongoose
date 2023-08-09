@@ -48,8 +48,8 @@ const run = async () => {
     console.log("New person saved:", savedPerson);
 
     const arrayOfPeople = [
-      { name: "Alice", age: 25, favoriteFoods: ["Pasta", "Salad"] },
-      { name: "Bob", age: 28, favoriteFoods: ["Steak", "Sushi"] },
+      { name: "Alice", age: 25, favoriteFoods: ["Pizza", "Libannais"] },
+      { name: "Bob", age: 28, favoriteFoods: ["Hachée", "César"] },
     ];
 
     const createdPeople = await Person.create(arrayOfPeople);
